@@ -22,8 +22,27 @@ md"""# Lista 1 - IA - 2021/2
 Aluno: Victor Silva dos Santos
 """
 
+# ╔═╡ 3475316d-8524-430d-918e-ece3a5b76bc9
+md"Código fonte completo disponível em:"
+
+# ╔═╡ bba34a41-77db-4225-966d-fabd58896074
+html"<a href='https://github.com/zuckberj/ia-ufmg-2021-2/blob/main/lista1.jl'>GiHub</a>"
+
+# ╔═╡ d0ceb131-98ea-4a6d-979f-42bd0bbeecb6
+md"É possível executar este notebook pelo link:
+
+*o serviço Binder é relativamente demorado e pode necessitar um restart do notebook e execussão da primeira célula para funcionar completamente.
+"
+
+# ╔═╡ 53e4ca4f-4ead-40fd-b6c1-6bdc63352a6b
+html"<a href='
+https://binder.plutojl.org/v0.17.1/open?url=https%253A%252F%252Fraw.githubusercontent.com%252Fzuckberj%252Fia-ufmg-2021-2%252Fmain%252Flista1.jl'>Binder</a>"
+
 # ╔═╡ 1a39b939-10f9-4ad3-ac30-3bc2d6934071
 md"## Problema 1 -- N-Queens"
+
+# ╔═╡ 07054dd1-386e-4deb-8ff8-3ef912d43d98
+md"Função do problema"
 
 # ╔═╡ c1ba8e98-6a4e-45e6-8fcb-4cde49be7fac
 function queen_fit(X::Vector{<:Integer})
@@ -44,8 +63,17 @@ function queen_fit(X::Vector{<:Integer})
 	fit
 end
 
+# ╔═╡ 35af2c60-74d7-4719-a6ca-9124e6e95367
+md"definição das estratégias do AG"
+
 # ╔═╡ f59946ea-c0d6-404c-b453-21e350d9e039
 D_nq = 8
+
+# ╔═╡ 88af6f31-2303-4fa8-b5b3-4d36fb9492ab
+md"População inicial"
+
+# ╔═╡ bcf5aa9e-30a1-40af-b1ed-2b18c6534e6b
+md"roda algoritmo"
 
 # ╔═╡ 6fbc7788-4736-4346-a08b-a0e0e99f363e
 md"## Problema 2 -- Funções teste
@@ -1888,12 +1916,20 @@ version = "0.9.1+5"
 # ╔═╡ Cell order:
 # ╠═6021fa5e-d35c-4311-a83c-ac33c665ab02
 # ╟─0091b053-f24e-406c-9b48-04882356ad86
+# ╟─3475316d-8524-430d-918e-ece3a5b76bc9
+# ╟─bba34a41-77db-4225-966d-fabd58896074
+# ╟─d0ceb131-98ea-4a6d-979f-42bd0bbeecb6
+# ╟─53e4ca4f-4ead-40fd-b6c1-6bdc63352a6b
 # ╟─1a39b939-10f9-4ad3-ac30-3bc2d6934071
+# ╟─07054dd1-386e-4deb-8ff8-3ef912d43d98
 # ╠═c1ba8e98-6a4e-45e6-8fcb-4cde49be7fac
+# ╟─35af2c60-74d7-4719-a6ca-9124e6e95367
 # ╠═e66bff7f-78a1-4317-b7f4-e8287d7a0875
 # ╠═8be18e7b-a996-46e7-946f-ceeb82de8bd1
 # ╠═f59946ea-c0d6-404c-b453-21e350d9e039
+# ╟─88af6f31-2303-4fa8-b5b3-4d36fb9492ab
 # ╠═f8c79585-33aa-4627-bf2d-8deebd9ca779
+# ╟─bcf5aa9e-30a1-40af-b1ed-2b18c6534e6b
 # ╠═5b4588fa-c73b-49b8-a3ec-9b0b30259f40
 # ╟─eabccb4b-9890-428c-9d43-dbab84fd08cc
 # ╟─f95a1f72-8333-485f-8756-e52187557a78
